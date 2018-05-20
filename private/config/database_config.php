@@ -5,9 +5,9 @@
 //3. unique credentials if working with multiple developers
 
 define("DB_SERVER", "localhost");
-define("DB_USER", "webuser");
-define("DB_PASS", "mysql_phebian3");
-define("DB_NAME", "oophp");
+define("DB_USER", "webuser"); //replace with your DB_USER
+define("DB_PASS", "mysql_pass"); //replace with your DB_PASS
+define("DB_NAME", "oophp"); //replace with your DB_NAME
 define("DSN", "mysql:host=localhost;dbname=oophp");
 
  ?>
