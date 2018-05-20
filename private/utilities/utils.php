@@ -28,7 +28,17 @@ function error_404() {
 
 function mvc_autoload($class){
   if(preg_match('/\A\w+\Z/', $class)){
-    include MVC_LIB_PATH .'/'. $class . '.php';
+    if(file_exists(MVC_LIB_PATH .'/'. $class . '.php')){
+      include MVC_LIB_PATH .'/'. $class . '.php';
+    }
+  }
+}
+
+function classes_autoload($class){
+  if(preg_match('/\A\w+\Z/', $class)){
+    if(file_exists(CLASS_PATH .'/'. $class . '.class.php')){
+      include CLASS_PATH .'/'. $class . '.class.php';
+    }
   }
 }
 

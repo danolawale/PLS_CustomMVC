@@ -2,5 +2,5 @@
 
 <?php
 $url = new Core;
-print_r($url->getUrl());
+//print_r($url->getUrl());
  ?>

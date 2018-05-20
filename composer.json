@@ -1,0 +1,15 @@
+{
+    "name": "pls/custom-mvc",
+    "description": "Custom PHP MVC framework",
+    "type": "project",
+    "license": "1.0",
+    "authors": [
+        {
+            "name": "Daniel Olawale",
+            "email": "test_email@test.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.0"
+    }
+}

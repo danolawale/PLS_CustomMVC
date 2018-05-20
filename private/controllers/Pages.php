@@ -15,6 +15,7 @@
     }
 
     public function about(){
+      $data = $this->get_common_data();
       $data = [
         'title' => 'About Us'
       ];
